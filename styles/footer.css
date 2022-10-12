@@ -1,0 +1,21 @@
+.disclaimers {
+    color: gray;
+    position: fixed;
+    display: flex;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: rgb(161, 217, 255);
+    vertical-align: middle;
+    text-align: center;
+    border-top-width: 1px;
+    justify-content: center;
+    border-top-style: solid;
+    border-top-color: rgb(29, 155, 240);
+    color: rgb(255, 255, 255);
+}
+
+.disclaimer {
+    font-size: 16px;
+    align-items: center;
+}
