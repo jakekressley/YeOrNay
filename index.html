@@ -15,9 +15,28 @@
     </div>
     <div class="display">
       <p class="rules">How to Play: You will be shown a tweet and it is your job to figure out whether Kanye tweeted this or it is just a random tweet</p>
+      <div class="tweet-box">
+        <p id="tweet">"tweet will go here"</p>
+        <p id="author ">"author will go here"</p>
+      </div>
+      <button class="next-tweet">Next Tweet</button>
     </div>
     <div class="disclaimers">
       <p class="disclaimer">Disclaimer: I do not associate myself with any of Kanye's beliefs or support his actions. I am just a fan of his music and think his tweets are funny.</p>
     </div>
+    <script>
+      const tweet = document.querySelector
+      ("#tweet");
+      const author = document.querySelector
+      ("#author");
+      const btn = document.querySelector
+      ("btn");
+
+      btn.addEventListener("click", getTweet);
+
+      function getTweet() {
+        fetch()
+      }
+    </script>
   </body>
 </html>
